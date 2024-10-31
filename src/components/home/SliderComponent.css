@@ -1,0 +1,59 @@
+.slider-container {
+    width: 95vw;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #4A148C;
+    font-size: 24px;
+    margin-bottom: 90px;
+  }
+  
+  .slide {
+    padding: 0 20px;
+    
+  }
+  .foot{
+    display: flex;
+    gap: 2%;
+    margin-top: auto;
+  }
+  .slide-content {
+    background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 250px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .slide-text {
+    font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  text-align: center;
+  flex-grow: 1;
+  }
+  
+  .slide-name {
+    font-weight: bold;
+    color: #333;
+  }
+  .slick-slide {
+    margin: 0 15px; /* Adjust this value to control the space between slides */
+  }
+  
+  .slick-list {
+    margin: 0 -15px; /* Counteracts extra margin on the edges of the slider */
+  }
+  
+  
